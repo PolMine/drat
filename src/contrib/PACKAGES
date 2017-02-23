@@ -4,3 +4,12 @@ License: CC BY-NC-SA 3.0
 MD5sum: 73c345f15fc4a336b095b6cf825c13c4
 NeedsCompilation: no
 
+Package: rcqp
+Version: 0.4
+Depends: R (>= 1.8.0), plyr
+Suggests: reshape
+License: GPL-2 | file LICENCE
+OS_type: unix
+MD5sum: 3597f7e4f2b1b91072dac1f9fafb1a37
+NeedsCompilation: yes
+
