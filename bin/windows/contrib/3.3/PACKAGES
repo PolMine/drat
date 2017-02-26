@@ -1,0 +1,6 @@
+Package: rcqp
+Version: 0.4
+Depends: R (>= 1.8.0), plyr
+Suggests: reshape
+License: GPL-2 | file LICENCE
+
