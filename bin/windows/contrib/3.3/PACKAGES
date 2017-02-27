@@ -1,3 +1,11 @@
+Package: polmineR
+Version: 0.7.0.9004
+Imports: methods, R6, data.table, slam, Matrix, tm, parallel, foreach,
+        DT
+Suggests: polmineR.sampleCorpus, rcqp, doParallel, markdown, htmltools,
+        xlsx, sendmailR, knitr, bigmemory, bigtabulate, rJava, shiny
+License: GPL-3
+
 Package: rcqp
 Version: 0.4
 Depends: R (>= 1.8.0), plyr
