@@ -1,3 +1,11 @@
+Package: GermaParl
+Version: 1.2.0
+Depends: polmineR, cwbtools
+Imports: R6, data.table
+Suggests: knitr, rmarkdown, magrittr
+MD5sum: b4f42af70fd602da810deda66cb58dd1
+NeedsCompilation: no
+
 Package: polmineR.sampleCorpus
 Version: 0.2.0
 License: CC BY-NC-SA 3.0
@@ -12,4 +20,3 @@ License: GPL-2 | file LICENCE
 OS_type: unix
 MD5sum: 3597f7e4f2b1b91072dac1f9fafb1a37
 NeedsCompilation: yes
-
