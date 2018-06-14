@@ -1,9 +1,8 @@
 Package: GermaParl
 Version: 1.2.0
-Depends: polmineR, cwbtools
-Imports: R6, data.table
-Suggests: knitr, rmarkdown, magrittr
-MD5sum: b4f42af70fd602da810deda66cb58dd1
+Imports: polmineR, cwbtools (>= 0.0.8.9003), R6, data.table
+Suggests: knitr, rmarkdown
+MD5sum: c8248fed4a9b905eaa4b2ff9eee0f109
 NeedsCompilation: no
 
 Package: polmineR.sampleCorpus
