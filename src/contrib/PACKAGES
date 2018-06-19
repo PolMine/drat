@@ -1,8 +1,8 @@
 Package: cwbtools
 Version: 0.0.8.9004
 Imports: data.table, R6, xml2, stringi, RCurl, RcppCWB, pbapply
-Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
-        SnowballC, janeaustenr, devtools
+Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext, SnowballC,
+         janeaustenr, devtools
 License: GPL-3
 MD5sum: 01d8b43b906db872414f0b5b79f4440a
 NeedsCompilation: no
@@ -38,5 +38,5 @@ NeedsCompilation: no
 Package: welt
 Version: 0.1.0
 Imports: cwbtools, RCurl
-MD5sum: bb6e1c60253a0f585cbfb5656131436b
+MD5sum: d9abf4f9a15df2da54011f05a821e41d
 NeedsCompilation: no
