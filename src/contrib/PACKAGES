@@ -1,10 +1,10 @@
 Package: cwbtools
 Version: 0.0.8.9004
 Imports: data.table, R6, xml2, stringi, RCurl, RcppCWB, pbapply
-Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext, SnowballC,
-         janeaustenr, devtools
+Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
+        SnowballC, janeaustenr, devtools
 License: GPL-3
-MD5sum: 01d8b43b906db872414f0b5b79f4440a
+MD5sum: 548a22a85a7bfdd15fcead77a64aa2f5
 NeedsCompilation: no
 
 Package: GermaParl
