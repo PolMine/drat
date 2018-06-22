@@ -7,6 +7,14 @@ License: GPL-3
 MD5sum: 7fb1f4af5f4d4e8e9af914bf3986c2c1
 NeedsCompilation: no
 
+Package: faz
+Version: 0.0.1
+Imports: utils, xml2, stringr, pbapply, reshape2, stats, xts, zoo,
+        lubridate
+Suggests: knitr, rmarkdown
+MD5sum: c6998150d83ec066154497b188fb35b2
+NeedsCompilation: no
+
 Package: GermaParl
 Version: 1.2.0
 Imports: polmineR, cwbtools (>= 0.0.8.9003), R6, data.table
@@ -28,6 +36,13 @@ License: GPL-2 | file LICENCE
 OS_type: unix
 MD5sum: 3597f7e4f2b1b91072dac1f9fafb1a37
 NeedsCompilation: yes
+
+Package: sz
+Version: 0.0.1
+Imports: xml2, xts, zoo, stats, pbapply, reshape2, stringi, lubridate
+Suggests: knitr, rmarkdown
+MD5sum: e14f3fa5c0335d2725cafb47d60f7fe6
+NeedsCompilation: no
 
 Package: taz
 Version: 0.2.0
