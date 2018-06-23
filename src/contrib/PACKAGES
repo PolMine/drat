@@ -1,3 +1,11 @@
+Package: AustroParl
+Version: 0.0.1
+Imports: cwbtools (>= 0.0.9), RCurl
+Suggests: knitr, rmarkdown
+License: CC BY-NC-SA 4.0
+MD5sum: a771f2f0def8f378ec880b313dc3ab88
+NeedsCompilation: no
+
 Package: cwbtools
 Version: 0.0.8.9006
 Imports: data.table, R6, xml2, stringi, RCurl, RcppCWB, pbapply
