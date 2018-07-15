@@ -7,12 +7,12 @@ MD5sum: a771f2f0def8f378ec880b313dc3ab88
 NeedsCompilation: no
 
 Package: cwbtools
-Version: 0.0.8.9006
+Version: 0.0.9
 Imports: data.table, R6, xml2, stringi, RCurl, RcppCWB, pbapply
 Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
         SnowballC, janeaustenr, devtools
 License: GPL-3
-MD5sum: 7fb1f4af5f4d4e8e9af914bf3986c2c1
+MD5sum: 9fea0cec69496de576f4f38bff276455
 NeedsCompilation: no
 
 Package: faz
@@ -28,6 +28,13 @@ Version: 1.2.0
 Imports: polmineR, cwbtools (>= 0.0.8.9003), R6, data.table
 Suggests: knitr, rmarkdown
 MD5sum: c8248fed4a9b905eaa4b2ff9eee0f109
+NeedsCompilation: no
+
+Package: polmineR.anno
+Version: 0.3.3
+Depends: R6, methods, polmineR, data.table
+Imports: DBI, RSQLite, tools
+MD5sum: 78743b12600423056828f0f11d062f20
 NeedsCompilation: no
 
 Package: polmineR.sampleCorpus
