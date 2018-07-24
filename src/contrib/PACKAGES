@@ -24,13 +24,13 @@ MD5sum: c6998150d83ec066154497b188fb35b2
 NeedsCompilation: no
 
 Package: GermaParl
-Version: 1.2.0
+Version: 1.2.1
 Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply,
         Matrix, topicmodels, methods, slam
 Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>=
         0.3.3)
 License: CC BY-NC-SA 4.0
-MD5sum: 25c60a2bbab1151a82503842cba0819e
+MD5sum: 0dc795f98dd12944aedfd6ac9832c943
 NeedsCompilation: no
 
 Package: polmineR.anno
