@@ -14,3 +14,16 @@ Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>=
         0.3.3)
 License: CC BY-NC-SA 4.0
 MD5sum: 16bef261858f3fa9f83bcfeab84329db
+
+Package: jobstatus
+Version: 0.0.0.9000
+Imports: R6
+Suggests: future, progress, testthat, covr
+License: MIT + file LICENSE
+MD5sum: 4ac38c13d7ad5aea164023f03d3f7b26
+
+Package: polmineR.anno
+Version: 0.3.3
+Depends: R6, methods, polmineR, data.table
+Imports: DBI, RSQLite, tools
+MD5sum: 5b8619897e70276debbb409529a1374e

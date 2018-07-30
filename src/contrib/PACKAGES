@@ -33,11 +33,19 @@ License: CC BY-NC-SA 4.0
 MD5sum: 0dc795f98dd12944aedfd6ac9832c943
 NeedsCompilation: no
 
+Package: jobstatus
+Version: 0.0.0.9000
+Imports: R6
+Suggests: future, progress, testthat, covr
+License: MIT + file LICENSE
+MD5sum: 0e0d689b4fdd1de876ccfae278b13711
+NeedsCompilation: no
+
 Package: polmineR.anno
 Version: 0.3.3
 Depends: R6, methods, polmineR, data.table
 Imports: DBI, RSQLite, tools
-MD5sum: 78743b12600423056828f0f11d062f20
+MD5sum: 173187ab6016b14a3f3bd8284fcdf224
 NeedsCompilation: no
 
 Package: polmineR.sampleCorpus
