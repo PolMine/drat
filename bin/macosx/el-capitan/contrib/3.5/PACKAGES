@@ -7,13 +7,13 @@ License: GPL-3
 MD5sum: 1815b0981180c02ed07fff3870758ecd
 
 Package: GermaParl
-Version: 1.2.1
+Version: 1.2.1.9001
 Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply,
         Matrix, topicmodels, methods, slam
 Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>=
         0.3.3)
 License: CC BY-NC-SA 4.0
-MD5sum: 16bef261858f3fa9f83bcfeab84329db
+MD5sum: ecef714d2d30d624e3ef9df4f88eece3
 
 Package: jobstatus
 Version: 0.0.0.9000
