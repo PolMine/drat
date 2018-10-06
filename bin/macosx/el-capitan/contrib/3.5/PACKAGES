@@ -26,4 +26,4 @@ Package: polmineR.anno
 Version: 0.3.3
 Depends: R6, methods, polmineR, data.table
 Imports: DBI, RSQLite, tools
-MD5sum: 5b8619897e70276debbb409529a1374e
+MD5sum: 9e9fe3c150ce267d3e63a842f16274b1
