@@ -27,3 +27,11 @@ Version: 0.3.3
 Depends: R6, methods, polmineR, data.table
 Imports: DBI, RSQLite, tools
 MD5sum: 9e9fe3c150ce267d3e63a842f16274b1
+
+Package: UCSSR
+Version: 0.0.0.9001
+Imports: polmineR, magrittr, RCurl, zoo, rstudioapi
+Suggests: data.table, xts, lubridate, knitr, rmarkdown, DT, annolite,
+        kableExtra, klippy, vembedr, widgetframe, devtools
+License: CC BY-NC-SA 4.0
+MD5sum: a6aebcf618882a7df8facfe963b29083

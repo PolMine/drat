@@ -76,6 +76,15 @@ Imports: cwbtools, RCurl
 MD5sum: bf85c7b86845ada79deb37e3eb50b04b
 NeedsCompilation: no
 
+Package: UCSSR
+Version: 0.0.0.9001
+Imports: polmineR, magrittr, RCurl, zoo, rstudioapi
+Suggests: data.table, xts, lubridate, knitr, rmarkdown, DT, annolite,
+        kableExtra, klippy, vembedr, widgetframe, devtools
+License: CC BY-NC-SA 4.0
+MD5sum: ed092eb27fe8f007e8347af969e91cd4
+NeedsCompilation: no
+
 Package: welt
 Version: 0.1.0
 Imports: cwbtools, RCurl
