@@ -82,7 +82,7 @@ Imports: polmineR, magrittr, RCurl, zoo, rstudioapi
 Suggests: data.table, xts, lubridate, knitr, rmarkdown, DT, annolite,
         kableExtra, klippy, vembedr, widgetframe, devtools
 License: CC BY-NC-SA 4.0
-MD5sum: ed092eb27fe8f007e8347af969e91cd4
+MD5sum: 8cac7ba9a09dd94ee76df4540b672283
 NeedsCompilation: no
 
 Package: welt

@@ -34,4 +34,4 @@ Imports: polmineR, magrittr, RCurl, zoo, rstudioapi
 Suggests: data.table, xts, lubridate, knitr, rmarkdown, DT, annolite,
         kableExtra, klippy, vembedr, widgetframe, devtools
 License: CC BY-NC-SA 4.0
-MD5sum: a6aebcf618882a7df8facfe963b29083
+MD5sum: a58ad715b24f8732e90b07666212f411
