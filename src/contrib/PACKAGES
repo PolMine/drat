@@ -87,12 +87,12 @@ MD5sum: bf85c7b86845ada79deb37e3eb50b04b
 NeedsCompilation: no
 
 Package: UCSSR
-Version: 0.0.0.9001
+Version: 0.0.1
 Imports: polmineR, magrittr, RCurl, zoo, rstudioapi
 Suggests: data.table, xts, lubridate, knitr, rmarkdown, DT, annolite,
         kableExtra, klippy, vembedr, widgetframe, devtools
 License: CC BY-NC-SA 4.0
-MD5sum: 8cac7ba9a09dd94ee76df4540b672283
+MD5sum: 593b1d01565c7ca5e61995f3176f18be
 NeedsCompilation: no
 
 Package: welt
