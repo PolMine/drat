@@ -30,7 +30,7 @@ Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply,
 Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>=
         0.3.3)
 License: CC BY-NC-SA 4.0
-MD5sum: d6ec110acb83d6f7dc4d97b97e0035ab
+MD5sum: 4acf074b90f8e2ad9c30acebc386b93b
 NeedsCompilation: no
 
 Package: jobstatus

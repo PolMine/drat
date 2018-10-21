@@ -4,3 +4,11 @@ Imports: data.table, R6, xml2, stringi, curl, RcppCWB, pbapply
 Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
         SnowballC, janeaustenr, devtools
 License: GPL-3
+
+Package: RcppCWB
+Version: 0.2.5.9002
+Imports: Rcpp (>= 0.12.6)
+LinkingTo: Rcpp
+Suggests: knitr, testthat
+License: GPL-3
+Archs: i386, x64
