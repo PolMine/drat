@@ -64,6 +64,15 @@ License: CC BY-NC-SA 3.0
 MD5sum: 73c345f15fc4a336b095b6cf825c13c4
 NeedsCompilation: no
 
+Package: RcppCWB
+Version: 0.2.5.9002
+Imports: Rcpp (>= 0.12.6)
+LinkingTo: Rcpp
+Suggests: knitr, testthat
+License: GPL-3
+MD5sum: f532b9ccb02625f630ba065e5d32f472
+NeedsCompilation: yes
+
 Package: rcqp
 Version: 0.4
 Depends: R (>= 1.8.0), plyr

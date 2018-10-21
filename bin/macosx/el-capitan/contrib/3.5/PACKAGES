@@ -28,6 +28,14 @@ Depends: R6, methods, polmineR, data.table
 Imports: DBI, RSQLite, tools
 MD5sum: 9e9fe3c150ce267d3e63a842f16274b1
 
+Package: RcppCWB
+Version: 0.2.5.9002
+Imports: Rcpp (>= 0.12.6)
+LinkingTo: Rcpp
+Suggests: knitr, testthat
+License: GPL-3
+MD5sum: 79b0700316986699bc7355054c730fc4
+
 Package: UCSSR
 Version: 0.0.0.9001
 Imports: polmineR, magrittr, RCurl, zoo, rstudioapi
