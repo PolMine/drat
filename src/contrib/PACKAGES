@@ -48,7 +48,7 @@ Imports: methods, R6, data.table, slam, Matrix, tm, DT, xml2, stringi,
 Suggests: markdown, rmarkdown, htmltools, openxlsx, sendmailR, shiny,
         shinythemes, testthat, tidytext, magrittr, covr
 License: GPL-3
-MD5sum: f20b7efd7cbaf6b8b84ca3f8ce7b525f
+MD5sum: 015b3d8776cd52adc6fb38637634d9f6
 NeedsCompilation: no
 
 Package: polmineR.anno

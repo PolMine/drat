@@ -22,6 +22,15 @@ Suggests: future, progress, testthat, covr
 License: MIT + file LICENSE
 MD5sum: 4ac38c13d7ad5aea164023f03d3f7b26
 
+Package: polmineR
+Version: 0.7.10.9002
+Imports: methods, R6, data.table, slam, Matrix, tm, DT, xml2, stringi,
+        utils, jsonlite, parallel, pbapply, RcppCWB (>= 0.2.2), knitr
+Suggests: markdown, rmarkdown, htmltools, openxlsx, sendmailR, shiny,
+        shinythemes, testthat, tidytext, magrittr, covr
+License: GPL-3
+MD5sum: 72c21ff6ddca9118976043292f61cf16
+
 Package: polmineR.anno
 Version: 0.3.3
 Depends: R6, methods, polmineR, data.table
