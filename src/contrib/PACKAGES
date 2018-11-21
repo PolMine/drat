@@ -41,7 +41,7 @@ Package: MigParl
 Version: 0.0.1.9000
 Imports: cwbtools, learnr
 License: CC BY-NC-SA 4.0
-MD5sum: 06eb84fb1abeebf0942b3c57d906b61e
+MD5sum: 62ae8352cef6f05dc88dbc210726bb34
 NeedsCompilation: no
 
 Package: polmineR
