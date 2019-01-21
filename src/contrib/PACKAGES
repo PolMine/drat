@@ -7,17 +7,10 @@ MD5sum: a771f2f0def8f378ec880b313dc3ab88
 NeedsCompilation: no
 
 Package: cwbtools
-<<<<<<< HEAD
 Version: 0.0.12
-Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.5.9002),
-        pbapply
-Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
-        SnowballC, janeaustenr, devtools
-=======
-Version: 0.0.9
-Imports: data.table, R6, xml2, stringi, RCurl, RcppCWB, pbapply
-Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext, SnowballC, janeaustenr, devtools
->>>>>>> 1d84668e20e9b9213d852756ec6a1f1ad0b799b5
+Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.5.9002), pbapply
+Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext, SnowballC, janeaustenr,
+          devtools
 License: GPL-3
 MD5sum: 5b8cb7885aec13ce08cfc1a0819b12c0
 NeedsCompilation: no
@@ -31,7 +24,8 @@ NeedsCompilation: no
 
 Package: GermaParl
 Version: 1.2.1.9001
-Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply, Matrix, topicmodels, methods, slam
+Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply, Matrix, topicmodels,
+          methods, slam
 Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>= 0.3.3)
 License: CC BY-NC-SA 4.0
 MD5sum: 4acf074b90f8e2ad9c30acebc386b93b
@@ -54,9 +48,10 @@ NeedsCompilation: no
 
 Package: polmineR
 Version: 0.7.10.9003
-Imports: methods, R6, data.table, slam, Matrix, tm, DT, xml2, stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>= 0.2.2),
-              knitr
-Suggests: markdown, rmarkdown, htmltools, openxlsx, sendmailR, shiny, shinythemes, testthat, tidytext, magrittr, covr
+Imports: methods, R6, data.table, slam, Matrix, tm, DT, xml2, stringi, utils, jsonlite,
+          parallel, pbapply, RcppCWB (>= 0.2.2), knitr
+Suggests: markdown, rmarkdown, htmltools, openxlsx, sendmailR, shiny, shinythemes, testthat,
+          tidytext, magrittr, covr
 License: GPL-3
 MD5sum: fb6c931b43616a33baff3cda140f8dd3
 NeedsCompilation: no
@@ -72,6 +67,14 @@ Package: polmineR.sampleCorpus
 Version: 0.2.0
 License: CC BY-NC-SA 3.0
 MD5sum: 73c345f15fc4a336b095b6cf825c13c4
+NeedsCompilation: no
+
+Package: PopParl
+Version: 0.0.0.9001
+Imports: cwbtools, RCurl, rstudioapi
+Suggests: knitr, rmarkdown
+License: CC BY-NC-SA 4.0
+MD5sum: d5c77136fc9732c75283f88828741a1d
 NeedsCompilation: no
 
 Package: RcppCWB
@@ -108,7 +111,8 @@ NeedsCompilation: no
 Package: UCSSR
 Version: 0.0.1
 Imports: polmineR, magrittr, RCurl, zoo, rstudioapi
-Suggests: data.table, xts, lubridate, knitr, rmarkdown, DT, annolite, kableExtra, klippy, vembedr, widgetframe, devtools
+Suggests: data.table, xts, lubridate, knitr, rmarkdown, DT, annolite, kableExtra, klippy,
+          vembedr, widgetframe, devtools
 License: CC BY-NC-SA 4.0
 MD5sum: 593b1d01565c7ca5e61995f3176f18be
 NeedsCompilation: no
