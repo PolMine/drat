@@ -74,7 +74,7 @@ Version: 0.0.0.9001
 Imports: cwbtools, RCurl, rstudioapi
 Suggests: knitr, rmarkdown
 License: CC BY-NC-SA 4.0
-MD5sum: d5c77136fc9732c75283f88828741a1d
+MD5sum: 9740e54885633ebaceb7038d8b55c7bf
 NeedsCompilation: no
 
 Package: RcppCWB
