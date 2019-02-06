@@ -1,5 +1,5 @@
 Package: cwbtools
-Version: 0.0.12
+Version: 0.0.12.9001
 Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.5.9002),
         pbapply
 Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
