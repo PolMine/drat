@@ -73,7 +73,7 @@ Package: PopParl
 Version: 0.1.0
 Imports: cwbtools, RCurl, rstudioapi
 Suggests: knitr, rmarkdown
-MD5sum: ac3dfea3b2462bb798112357c98c0bd8
+MD5sum: c7309623bc49dcfab4e0eb29f0b9a207
 NeedsCompilation: no
 
 Package: RcppCWB
