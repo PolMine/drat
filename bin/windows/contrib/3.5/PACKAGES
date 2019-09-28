@@ -1,32 +1,29 @@
 Package: cwbtools
 Version: 0.0.12.9002
-Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.5.9002),
-        pbapply, methods
-Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
-        SnowballC, janeaustenr, devtools, polmineR, NLP
+Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.5.9002), pbapply, methods
+Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext, SnowballC, janeaustenr,
+          devtools, polmineR, NLP
 License: GPL-3
 
 Package: GermaParl
 Version: 1.2.1.9001
-Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply,
-        Matrix, topicmodels, methods, slam
-Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>=
-        0.3.3)
+Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply, Matrix, topicmodels,
+          methods, slam
+Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>= 0.3.3)
 License: CC BY-NC-SA 4.0
 
 Package: polmineR
 Version: 0.7.11.9001
-Imports: methods, R6, data.table, slam, Matrix, tm, DT, xml2, stringi,
-        utils, jsonlite, parallel, pbapply, RcppCWB (>= 0.2.2), knitr
-Suggests: markdown, rmarkdown, htmltools, openxlsx, sendmailR, shiny,
-        shinythemes, testthat, tidytext, magrittr, covr, igraph
+Imports: methods, R6, data.table, slam, Matrix, tm, DT, xml2, stringi, utils, jsonlite,
+          parallel, pbapply, RcppCWB (>= 0.2.2), knitr
+Suggests: markdown, rmarkdown, htmltools, openxlsx, sendmailR, shiny, shinythemes, testthat,
+          tidytext, magrittr, covr, igraph
 License: GPL-3
 
 Package: PopParl
-Version: 0.0.0.9000
+Version: 0.1.2
 Imports: cwbtools, RCurl, rstudioapi
 Suggests: knitr, rmarkdown
-License: CC BY-NC-SA 4.0
 
 Package: RcppCWB
 Version: 0.2.5.9002
