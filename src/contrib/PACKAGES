@@ -121,10 +121,11 @@ MD5sum: 593b1d01565c7ca5e61995f3176f18be
 NeedsCompilation: no
 
 Package: UNGA
-Version: 0.0.3
-Imports: cwbtools, RCurl
-Suggests: knitr, rmarkdown
-MD5sum: af88e645137c9653e35b23639960a7ea
+Version: 0.1.2
+Imports: cwbtools, RCurl, curl, polmineR
+Suggests: knitr, rmarkdown, SnowballC
+License: CC BY-NC-SA 4.0
+MD5sum: 742491b3f66de33fa26515ddef1ee43f
 NeedsCompilation: no
 
 Package: welt
