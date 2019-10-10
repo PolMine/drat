@@ -1,0 +1,8 @@
+Package: cwbtools
+Version: 0.1.0
+Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.8),
+        pbapply, methods
+Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
+        SnowballC, janeaustenr, devtools, polmineR, NLP
+License: GPL-3
+MD5sum: 28aa3f46a102e1ec6d619ce79f83c7f0

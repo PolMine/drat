@@ -14,25 +14,29 @@ MD5sum: 71b87c39247fbccdf361a24781de2f37
 NeedsCompilation: no
 
 Package: cwbtools
-Version: 0.0.12.9002
-Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.5.9002), pbapply, methods
-Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext, SnowballC, janeaustenr, devtools, polmineR,
-            NLP
+Version: 0.1.0
+Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.8),
+        pbapply, methods
+Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
+        SnowballC, janeaustenr, devtools, polmineR, NLP
 License: GPL-3
-MD5sum: b4162e6303fda786650785199f3907ce
+MD5sum: 994318baafde2ba0c4dff08b638f8163
 NeedsCompilation: no
 
 Package: faz
 Version: 0.0.1
-Imports: utils, xml2, stringr, pbapply, reshape2, stats, xts, zoo, lubridate
+Imports: utils, xml2, stringr, pbapply, reshape2, stats, xts, zoo,
+        lubridate
 Suggests: knitr, rmarkdown
 MD5sum: c6998150d83ec066154497b188fb35b2
 NeedsCompilation: no
 
 Package: GermaParl
 Version: 1.2.1.9001
-Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply, Matrix, topicmodels, methods, slam
-Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>= 0.3.3)
+Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply,
+        Matrix, topicmodels, methods, slam
+Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>=
+        0.3.3)
 License: CC BY-NC-SA 4.0
 MD5sum: 4acf074b90f8e2ad9c30acebc386b93b
 NeedsCompilation: no
@@ -54,10 +58,10 @@ NeedsCompilation: no
 
 Package: polmineR
 Version: 0.7.10.9003
-Imports: methods, R6, data.table, slam, Matrix, tm, DT, xml2, stringi, utils, jsonlite, parallel, pbapply,
-            RcppCWB (>= 0.2.2), knitr
-Suggests: markdown, rmarkdown, htmltools, openxlsx, sendmailR, shiny, shinythemes, testthat, tidytext,
-            magrittr, covr
+Imports: methods, R6, data.table, slam, Matrix, tm, DT, xml2, stringi,
+        utils, jsonlite, parallel, pbapply, RcppCWB (>= 0.2.2), knitr
+Suggests: markdown, rmarkdown, htmltools, openxlsx, sendmailR, shiny,
+        shinythemes, testthat, tidytext, magrittr, covr
 License: GPL-3
 MD5sum: fb6c931b43616a33baff3cda140f8dd3
 NeedsCompilation: no
@@ -116,8 +120,8 @@ NeedsCompilation: no
 Package: UCSSR
 Version: 0.0.1
 Imports: polmineR, magrittr, RCurl, zoo, rstudioapi
-Suggests: data.table, xts, lubridate, knitr, rmarkdown, DT, annolite, kableExtra, klippy, vembedr, widgetframe,
-            devtools
+Suggests: data.table, xts, lubridate, knitr, rmarkdown, DT, annolite,
+        kableExtra, klippy, vembedr, widgetframe, devtools
 License: CC BY-NC-SA 4.0
 MD5sum: 593b1d01565c7ca5e61995f3176f18be
 NeedsCompilation: no
