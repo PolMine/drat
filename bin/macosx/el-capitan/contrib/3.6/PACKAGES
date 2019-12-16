@@ -7,6 +7,13 @@ Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
 License: GPL-3
 MD5sum: 28aa3f46a102e1ec6d619ce79f83c7f0
 
+Package: europarl
+Version: 0.0.4
+Imports: cwbtools (>= 0.1.1), curl, stringi
+Suggests: knitr, rmarkdown,
+License: GPL-3
+MD5sum: 9215b0748bfe1ba58465a461497a14f7
+
 Package: PopParl
 Version: 0.1.3.9001
 Imports: cwbtools, RCurl, rstudioapi

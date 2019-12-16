@@ -23,6 +23,14 @@ License: GPL-3
 MD5sum: 994318baafde2ba0c4dff08b638f8163
 NeedsCompilation: no
 
+Package: europarl
+Version: 0.0.4
+Imports: cwbtools (>= 0.1.1), curl, stringi
+Suggests: knitr, rmarkdown,
+License: GPL-3
+MD5sum: 2a71dd1c7d5edb64e79c8379c923b50a
+NeedsCompilation: no
+
 Package: faz
 Version: 0.0.1
 Imports: utils, xml2, stringr, pbapply, reshape2, stats, xts, zoo,
