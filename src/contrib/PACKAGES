@@ -65,13 +65,15 @@ MD5sum: 9ec3811bd95f35ce9b7808926a16b6de
 NeedsCompilation: no
 
 Package: polmineR
-Version: 0.7.10.9003
-Imports: methods, R6, data.table, slam, Matrix, tm, DT, xml2, stringi,
-        utils, jsonlite, parallel, pbapply, RcppCWB (>= 0.2.2), knitr
-Suggests: markdown, rmarkdown, htmltools, openxlsx, sendmailR, shiny,
-        shinythemes, testthat, tidytext, magrittr, covr
+Version: 0.8.0.9006
+Imports: methods, R6, data.table (>= 1.12.2), slam, Matrix, tm, DT,
+        xml2, stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>=
+        0.2.2), magrittr, knitr
+Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), openxlsx,
+        sendmailR, shiny, shinythemes, miniUI, rhandsontable, testthat,
+        tidytext, covr, igraph, NLP, httr, protolite, curl
 License: GPL-3
-MD5sum: fb6c931b43616a33baff3cda140f8dd3
+MD5sum: 5b5dc541f2fed940b6df30b0ac93943c
 NeedsCompilation: no
 
 Package: polmineR.anno

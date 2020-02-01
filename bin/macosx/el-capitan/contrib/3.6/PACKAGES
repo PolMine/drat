@@ -14,6 +14,17 @@ Suggests: knitr, rmarkdown,
 License: GPL-3
 MD5sum: 9215b0748bfe1ba58465a461497a14f7
 
+Package: polmineR
+Version: 0.8.0.9006
+Imports: methods, R6, data.table (>= 1.12.2), slam, Matrix, tm, DT,
+        xml2, stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>=
+        0.2.2), magrittr, knitr
+Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), openxlsx,
+        sendmailR, shiny, shinythemes, miniUI, rhandsontable, testthat,
+        tidytext, covr, igraph, NLP, httr, protolite, curl
+License: GPL-3
+MD5sum: f9c2bd8b46bd917e9bbbbfc3031910d2
+
 Package: PopParl
 Version: 0.1.3.9001
 Imports: cwbtools, RCurl, rstudioapi
