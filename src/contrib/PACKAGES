@@ -14,13 +14,13 @@ MD5sum: 71b87c39247fbccdf361a24781de2f37
 NeedsCompilation: no
 
 Package: cwbtools
-Version: 0.1.0
+Version: 0.2.0
 Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.8),
-        pbapply, methods
+        pbapply, methods, usethis, rstudioapi, jsonlite, RCurl
 Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
-        SnowballC, janeaustenr, devtools, polmineR, NLP
+        SnowballC, janeaustenr, devtools, polmineR, NLP, testthat
 License: GPL-3
-MD5sum: 994318baafde2ba0c4dff08b638f8163
+MD5sum: 1773ba07978d62b58d45f7156f2513e1
 NeedsCompilation: no
 
 Package: europarl
