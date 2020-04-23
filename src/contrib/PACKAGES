@@ -49,6 +49,13 @@ License: CC BY-NC-SA 4.0
 MD5sum: 4acf074b90f8e2ad9c30acebc386b93b
 NeedsCompilation: no
 
+Package: gles
+Version: 0.1.0
+Depends: knitr
+Imports: foreign, utils
+MD5sum: 9e7f38f1851b70789cf2c380638ccaf0
+NeedsCompilation: no
+
 Package: jobstatus
 Version: 0.0.0.9000
 Imports: R6
