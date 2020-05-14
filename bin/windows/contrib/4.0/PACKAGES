@@ -1,0 +1,6 @@
+Package: gles
+Version: 0.2.1
+Depends: R (>= 3.5.0),
+Imports: foreign, utils
+Suggests: knitr
+License: file LICENSE
