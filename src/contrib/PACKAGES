@@ -50,10 +50,10 @@ MD5sum: 4acf074b90f8e2ad9c30acebc386b93b
 NeedsCompilation: no
 
 Package: gles
-Version: 0.1.0
-Depends: knitr
+Version: 0.1.1
+Depends: R (>= 2.10), knitr
 Imports: foreign, utils
-MD5sum: 9e7f38f1851b70789cf2c380638ccaf0
+MD5sum: 76d4db7a33a37d47e2532f5f5af69635
 NeedsCompilation: no
 
 Package: jobstatus

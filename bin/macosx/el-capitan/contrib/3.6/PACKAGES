@@ -14,6 +14,13 @@ Suggests: knitr, rmarkdown,
 License: GPL-3
 MD5sum: 9215b0748bfe1ba58465a461497a14f7
 
+Package: gles
+Version: 0.2.0
+Depends: R (>= 3.5.0),
+Imports: foreign, utils
+Suggests: knitr
+MD5sum: c100b3604aac325d1d8f790bb4ca007b
+
 Package: polmineR
 Version: 0.8.0.9006
 Imports: methods, R6, data.table (>= 1.12.2), slam, Matrix, tm, DT,
