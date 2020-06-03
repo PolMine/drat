@@ -15,10 +15,10 @@ NeedsCompilation: no
 
 Package: cwbtools
 Version: 0.2.0
-Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.8),
-        pbapply, methods, usethis, rstudioapi, jsonlite, RCurl
-Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
-        SnowballC, janeaustenr, devtools, polmineR, NLP, testthat
+Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.8), pbapply,
+        methods, usethis, rstudioapi, jsonlite, RCurl
+Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext, SnowballC,
+        janeaustenr, devtools, polmineR, NLP, testthat
 License: GPL-3
 MD5sum: 1773ba07978d62b58d45f7156f2513e1
 NeedsCompilation: no
@@ -33,8 +33,7 @@ NeedsCompilation: no
 
 Package: faz
 Version: 0.0.1
-Imports: utils, xml2, stringr, pbapply, reshape2, stats, xts, zoo,
-        lubridate
+Imports: utils, xml2, stringr, pbapply, reshape2, stats, xts, zoo, lubridate
 Suggests: knitr, rmarkdown
 MD5sum: c6998150d83ec066154497b188fb35b2
 NeedsCompilation: no
@@ -43,17 +42,18 @@ Package: GermaParl
 Version: 1.2.1.9001
 Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply,
         Matrix, topicmodels, methods, slam
-Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>=
-        0.3.3)
+Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>= 0.3.3)
 License: CC BY-NC-SA 4.0
 MD5sum: 4acf074b90f8e2ad9c30acebc386b93b
 NeedsCompilation: no
 
 Package: gles
-Version: 0.1.1
-Depends: R (>= 2.10), knitr
+Version: 0.2.1
+Depends: R (>= 3.5.0)
 Imports: foreign, utils
-MD5sum: 76d4db7a33a37d47e2532f5f5af69635
+Suggests: knitr
+License: file LICENSE
+MD5sum: 082e1cabc3da7590f53bdc732e077d52
 NeedsCompilation: no
 
 Package: jobstatus
@@ -73,12 +73,12 @@ NeedsCompilation: no
 
 Package: polmineR
 Version: 0.8.0.9006
-Imports: methods, R6, data.table (>= 1.12.2), slam, Matrix, tm, DT,
-        xml2, stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>=
-        0.2.2), magrittr, knitr
-Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), openxlsx,
-        sendmailR, shiny, shinythemes, miniUI, rhandsontable, testthat,
-        tidytext, covr, igraph, NLP, httr, protolite, curl
+Imports: methods, R6, data.table (>= 1.12.2), slam, Matrix, tm, DT, xml2,
+        stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>= 0.2.2),
+        magrittr, knitr
+Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), openxlsx, sendmailR,
+        shiny, shinythemes, miniUI, rhandsontable, testthat, tidytext,
+        covr, igraph, NLP, httr, protolite, curl
 License: GPL-3
 MD5sum: 5b5dc541f2fed940b6df30b0ac93943c
 NeedsCompilation: no
