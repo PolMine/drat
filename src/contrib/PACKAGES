@@ -14,13 +14,14 @@ MD5sum: 71b87c39247fbccdf361a24781de2f37
 NeedsCompilation: no
 
 Package: cwbtools
-Version: 0.2.0
-Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.8), pbapply,
-        methods, usethis, rstudioapi, jsonlite, RCurl
-Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext, SnowballC,
-        janeaustenr, devtools, polmineR, NLP, testthat
+Version: 0.3.0
+Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.8),
+        pbapply, methods, cli, jsonlite, RCurl, rstudioapi, zen4R
+Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
+        SnowballC, janeaustenr, devtools, polmineR, NLP, testthat,
+        usethis, rmarkdown
 License: GPL-3
-MD5sum: 1773ba07978d62b58d45f7156f2513e1
+MD5sum: bca027de8694d661e65fc5196a540701
 NeedsCompilation: no
 
 Package: europarl
@@ -33,7 +34,8 @@ NeedsCompilation: no
 
 Package: faz
 Version: 0.0.1
-Imports: utils, xml2, stringr, pbapply, reshape2, stats, xts, zoo, lubridate
+Imports: utils, xml2, stringr, pbapply, reshape2, stats, xts, zoo,
+        lubridate
 Suggests: knitr, rmarkdown
 MD5sum: c6998150d83ec066154497b188fb35b2
 NeedsCompilation: no
@@ -42,7 +44,8 @@ Package: GermaParl
 Version: 1.2.1.9001
 Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply,
         Matrix, topicmodels, methods, slam
-Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>= 0.3.3)
+Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>=
+        0.3.3)
 License: CC BY-NC-SA 4.0
 MD5sum: 4acf074b90f8e2ad9c30acebc386b93b
 NeedsCompilation: no
@@ -72,15 +75,16 @@ MD5sum: 9ec3811bd95f35ce9b7808926a16b6de
 NeedsCompilation: no
 
 Package: polmineR
-Version: 0.8.0.9006
-Imports: methods, R6, data.table (>= 1.12.2), slam, Matrix, tm, DT, xml2,
-        stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>= 0.2.2),
-        magrittr, knitr
-Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), openxlsx, sendmailR,
-        shiny, shinythemes, miniUI, rhandsontable, testthat, tidytext,
-        covr, igraph, NLP, httr, protolite, curl
+Version: 0.8.2
+Depends: R (>= 3.5.0)
+Imports: methods, data.table (>= 1.12.2), slam, Matrix, tm, DT, xml2,
+        stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>=
+        0.2.2), magrittr, knitr
+Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), highlight,
+        sendmailR, shiny, shinythemes, miniUI, rhandsontable, testthat,
+        tidytext, covr, igraph, NLP, httr, protolite, curl
 License: GPL-3
-MD5sum: 5b5dc541f2fed940b6df30b0ac93943c
+MD5sum: f1702a24ba77953b7a22df15c86c19ee
 NeedsCompilation: no
 
 Package: polmineR.anno
