@@ -1,0 +1,10 @@
+Package: polmineR
+Version: 0.8.2
+Depends: R (>= 3.5.0)
+Imports: methods, data.table (>= 1.12.2), slam, Matrix, tm, DT, xml2,
+        stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>=
+        0.2.2), magrittr, knitr
+Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), highlight,
+        sendmailR, shiny, shinythemes, miniUI, rhandsontable, testthat,
+        tidytext, covr, igraph, NLP, httr, protolite, curl
+License: GPL-3
