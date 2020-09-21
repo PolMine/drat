@@ -75,7 +75,7 @@ MD5sum: 9ec3811bd95f35ce9b7808926a16b6de
 NeedsCompilation: no
 
 Package: polmineR
-Version: 0.8.2
+Version: 0.8.5
 Depends: R (>= 3.5.0)
 Imports: methods, data.table (>= 1.12.2), slam, Matrix, tm, DT, xml2,
         stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>=
@@ -84,7 +84,7 @@ Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), highlight,
         sendmailR, shiny, shinythemes, miniUI, rhandsontable, testthat,
         tidytext, covr, igraph, NLP, httr, protolite, curl
 License: GPL-3
-MD5sum: f1702a24ba77953b7a22df15c86c19ee
+MD5sum: f574da01d911a47883cad721dbfd6135
 NeedsCompilation: no
 
 Package: polmineR.anno
