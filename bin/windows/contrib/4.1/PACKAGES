@@ -1,0 +1,8 @@
+Package: learningR
+Version: 0.0.3
+Depends: R (>= 3.5.0),
+Imports: xaringan (>= 0.20), rstudioapi
+Suggests: knitr, rmarkdown, wordcloud, xml2, ggplot2, gles, polmineR, reshape2, rvest, tm, twitteR,
+           haven, utils, car, RefManageR, bibtex, bit64, openxlsx, jsonlite, readr, magrittr, stargazer,
+           data.table, dplyr, lattice
+License: CC BY 4.0
