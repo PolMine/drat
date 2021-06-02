@@ -189,7 +189,7 @@ Suggests: knitr, rmarkdown, wordcloud, xml2, ggplot2, gles, polmineR, reshape2,
          openxlsx, jsonlite, readr, magrittr, stargazer, data.table, dplyr,
          lattice
 License: CC BY 4.0
-MD5sum: 8440411c7a194c0550d5c550cf4f1333
+MD5sum: 5dd6f9f5e39a68d60323ca15ae8f3421
 NeedsCompilation: no
 
 Package: MigParl

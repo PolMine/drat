@@ -24,4 +24,4 @@ Suggests: knitr, rmarkdown, wordcloud, xml2, ggplot2, gles, polmineR, reshape2,
          openxlsx, jsonlite, readr, magrittr, stargazer, data.table, dplyr,
          lattice
 License: CC BY 4.0
-MD5sum: c8bf0cfe5a75033b8d6dd0fd67016b7f
+MD5sum: 952e737518aebc7b740f1abb4e43d462
