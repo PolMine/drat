@@ -2,19 +2,27 @@ Package: learningR
 Version: 0.0.4
 Depends: R (>= 3.5.0),
 Imports: xaringan (>= 0.20), rstudioapi
-Suggests: knitr, rmarkdown, wordcloud, xml2, ggplot2, gles, polmineR, reshape2, rvest, tm, twitteR,
-           haven, utils, car, RefManageR, bibtex, bit64, openxlsx, jsonlite, readr, magrittr,
-           stargazer, data.table, dplyr, lattice
+Suggests: knitr, rmarkdown, wordcloud, xml2, ggplot2, gles, polmineR, reshape2, rvest, tm, twitteR, haven, utils,
+             car, RefManageR, bibtex, bit64, openxlsx, jsonlite, readr, magrittr, stargazer, data.table, dplyr,
+             lattice
 License: CC BY 4.0
 
 Package: polmineR
 Version: 0.8.2
 Depends: R (>= 3.5.0)
-Imports: methods, data.table (>= 1.12.2), slam, Matrix, tm, DT, xml2, stringi, utils, jsonlite,
-           parallel, pbapply, RcppCWB (>= 0.2.2), magrittr, knitr
-Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), highlight, sendmailR, shiny, shinythemes,
-           miniUI, rhandsontable, testthat, tidytext, covr, igraph, NLP, httr, protolite, curl
+Imports: methods, data.table (>= 1.12.2), slam, Matrix, tm, DT, xml2, stringi, utils, jsonlite, parallel, pbapply,
+             RcppCWB (>= 0.2.2), magrittr, knitr
+Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), highlight, sendmailR, shiny, shinythemes, miniUI,
+             rhandsontable, testthat, tidytext, covr, igraph, NLP, httr, protolite, curl
 License: GPL-3
+
+Package: RcppCWB
+Version: 0.3.2.9003
+Imports: Rcpp (>= 0.12.6)
+LinkingTo: Rcpp
+Suggests: knitr, testthat
+License: GPL-3
+Archs: i386, x64
 
 Package: solutions
 Version: 0.0.0.9000
