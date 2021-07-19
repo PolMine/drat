@@ -1,0 +1,181 @@
+Package: AustroParl
+Version: 0.0.1
+Imports: cwbtools (>= 0.0.9), RCurl
+Suggests: knitr, rmarkdown
+License: CC BY-NC-SA 4.0
+MD5sum: a771f2f0def8f378ec880b313dc3ab88
+NeedsCompilation: no
+
+Package: btful
+Version: 0.0.1
+Imports: cwbtools (>= 0.0.9), RCurl
+Suggests: knitr, rmarkdown
+MD5sum: 71b87c39247fbccdf361a24781de2f37
+NeedsCompilation: no
+
+Package: cwbtools
+Version: 0.3.0
+Imports: data.table, R6, xml2, stringi, curl, RcppCWB (>= 0.2.8),
+        pbapply, methods, cli, jsonlite, RCurl, rstudioapi, zen4R
+Suggests: tm (>= 0.7.3), knitr, tokenizers (>= 0.2.1), tidytext,
+        SnowballC, janeaustenr, devtools, polmineR, NLP, testthat,
+        usethis, rmarkdown
+License: GPL-3
+MD5sum: bca027de8694d661e65fc5196a540701
+NeedsCompilation: no
+
+Package: europarl
+Version: 0.0.4
+Imports: cwbtools (>= 0.1.1), curl, stringi
+Suggests: knitr, rmarkdown,
+License: GPL-3
+MD5sum: 2a71dd1c7d5edb64e79c8379c923b50a
+NeedsCompilation: no
+
+Package: faz
+Version: 0.0.1
+Imports: utils, xml2, stringr, pbapply, reshape2, stats, xts, zoo,
+        lubridate
+Suggests: knitr, rmarkdown
+MD5sum: c6998150d83ec066154497b188fb35b2
+NeedsCompilation: no
+
+Package: GermaParl
+Version: 1.2.1.9001
+Imports: polmineR, cwbtools (>= 0.0.9), R6, data.table, RCurl, pbapply,
+        Matrix, topicmodels, methods, slam
+Suggests: knitr, qlcMatrix, SnowballC, rmarkdown, polmineR.anno (>=
+        0.3.3)
+License: CC BY-NC-SA 4.0
+MD5sum: 4acf074b90f8e2ad9c30acebc386b93b
+NeedsCompilation: no
+
+Package: gles
+Version: 0.2.1
+Depends: R (>= 3.5.0)
+Imports: foreign, utils
+Suggests: knitr
+License: file LICENSE
+MD5sum: 082e1cabc3da7590f53bdc732e077d52
+NeedsCompilation: no
+
+Package: jobstatus
+Version: 0.0.0.9000
+Imports: R6
+Suggests: future, progress, testthat, covr
+License: MIT + file LICENSE
+MD5sum: 0e0d689b4fdd1de876ccfae278b13711
+NeedsCompilation: no
+
+Package: learningR
+Version: 0.0.4
+Depends: R (>= 3.5.0),
+Imports: xaringan (>= 0.20), rstudioapi
+Suggests: knitr, rmarkdown, wordcloud, xml2, ggplot2, gles, polmineR,
+        reshape2, rvest, tm, twitteR, haven, utils, car, RefManageR,
+        bibtex, bit64, openxlsx, jsonlite, readr, magrittr, stargazer,
+        data.table, dplyr, lattice
+License: CC BY 4.0
+MD5sum: 4b6679580d7e7e81e5d62e0b6165091b
+NeedsCompilation: no
+
+Package: MigParl
+Version: 0.0.1.9001
+Imports: cwbtools, learnr
+License: CC BY-NC-SA 4.0
+MD5sum: 9ec3811bd95f35ce9b7808926a16b6de
+NeedsCompilation: no
+
+Package: polmineR
+Version: 0.8.5
+Depends: R (>= 3.5.0)
+Imports: methods, data.table (>= 1.12.2), slam, Matrix, tm, DT, xml2,
+        stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>=
+        0.2.2), magrittr, knitr
+Suggests: markdown, rmarkdown, htmltools (>= 0.4.0), highlight,
+        sendmailR, shiny, shinythemes, miniUI, rhandsontable, testthat,
+        tidytext, covr, igraph, NLP, httr, protolite, curl
+License: GPL-3
+MD5sum: f574da01d911a47883cad721dbfd6135
+NeedsCompilation: no
+
+Package: polmineR.anno
+Version: 0.3.3
+Depends: R6, methods, polmineR, data.table
+Imports: DBI, RSQLite, tools
+MD5sum: aec6f86eefeca445c74ba26231dd640b
+NeedsCompilation: no
+
+Package: polmineR.sampleCorpus
+Version: 0.2.0
+License: CC BY-NC-SA 3.0
+MD5sum: 73c345f15fc4a336b095b6cf825c13c4
+NeedsCompilation: no
+
+Package: PopParl
+Version: 0.1.3.9001
+Imports: cwbtools, RCurl, rstudioapi
+Suggests: knitr, rmarkdown
+MD5sum: d687d552b37243f0f1491307094812c5
+NeedsCompilation: no
+
+Package: RcppCWB
+Version: 0.4.2.9002
+Imports: Rcpp (>= 0.12.6)
+LinkingTo: Rcpp
+Suggests: knitr, testthat
+License: GPL-3
+MD5sum: f58d10cd61f5f15003277a4450b48249
+NeedsCompilation: yes
+
+Package: rcqp
+Version: 0.4
+Depends: R (>= 1.8.0), plyr
+Suggests: reshape
+License: GPL-2 | file LICENCE
+OS_type: unix
+MD5sum: 3597f7e4f2b1b91072dac1f9fafb1a37
+NeedsCompilation: yes
+
+Package: solutions
+Version: 0.0.0.9000
+Imports: utils, safer, rstudioapi, xaringan, rmarkdown
+License: GPL (>= 3)
+MD5sum: 5dd7c011ca64086bd76686eec354ad96
+NeedsCompilation: no
+
+Package: sz
+Version: 0.0.1
+Imports: xml2, xts, zoo, stats, pbapply, reshape2, stringi, lubridate
+Suggests: knitr, rmarkdown
+MD5sum: e14f3fa5c0335d2725cafb47d60f7fe6
+NeedsCompilation: no
+
+Package: taz
+Version: 0.2.0
+Imports: cwbtools, RCurl
+MD5sum: bf85c7b86845ada79deb37e3eb50b04b
+NeedsCompilation: no
+
+Package: UCSSR
+Version: 0.0.1
+Imports: polmineR, magrittr, RCurl, zoo, rstudioapi
+Suggests: data.table, xts, lubridate, knitr, rmarkdown, DT, annolite,
+        kableExtra, klippy, vembedr, widgetframe, devtools
+License: CC BY-NC-SA 4.0
+MD5sum: 593b1d01565c7ca5e61995f3176f18be
+NeedsCompilation: no
+
+Package: UNGA
+Version: 0.1.2
+Imports: cwbtools, RCurl, curl, polmineR
+Suggests: knitr, rmarkdown, SnowballC
+License: CC BY-NC-SA 4.0
+MD5sum: 742491b3f66de33fa26515ddef1ee43f
+NeedsCompilation: no
+
+Package: welt
+Version: 0.1.0
+Imports: cwbtools, RCurl
+MD5sum: d9abf4f9a15df2da54011f05a821e41d
+NeedsCompilation: no
