@@ -1,3 +1,10 @@
+Package: GermaParl
+Version: 1.5.3
+Depends: R (>= 3.5.0)
+Imports: cwbtools (>= 0.3.3), tools, cli, zen4R
+Suggests: topicmodels, knitr, rmarkdown, testthat
+License: GPL-3
+
 Package: gles
 Version: 0.2.1
 Depends: R (>= 3.5.0),
