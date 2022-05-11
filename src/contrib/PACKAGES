@@ -1,0 +1,6 @@
+Package: gles
+Version: 0.1.2
+Depends: R (>= 3.5.0), knitr
+Imports: foreign, utils
+MD5sum: f3c8518c6b864f01508220e7cb943f7f
+NeedsCompilation: no
