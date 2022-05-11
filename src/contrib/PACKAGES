@@ -4,3 +4,12 @@ Depends: R (>= 3.5.0), knitr
 Imports: foreign, utils
 MD5sum: f3c8518c6b864f01508220e7cb943f7f
 NeedsCompilation: no
+
+Package: gles
+Version: 0.2.2
+Depends: R (>= 3.5.0),
+Imports: foreign, utils
+Suggests: knitr, rmarkdown
+License: file LICENSE
+MD5sum: e94027af305774ad9cbade4887074055
+NeedsCompilation: no
