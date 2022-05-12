@@ -1,0 +1,7 @@
+Package: gles
+Version: 0.2.2
+Depends: R (>= 3.5.0),
+Imports: foreign, utils
+Suggests: knitr, rmarkdown
+License: file LICENSE
+MD5sum: d62c92d4d82f2420626dbaf4b61fae43
