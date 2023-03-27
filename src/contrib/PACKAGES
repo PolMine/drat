@@ -169,7 +169,7 @@ Version: 2.0.0
 Depends: R (>= 3.5.0)
 Suggests: knitr, rmarkdown, testthat
 License: GPL-3
-MD5sum: c8469179ab831a756597ac2e6f2e26e6
+MD5sum: 601f40e3d991a968b3267bf596fe4196
 NeedsCompilation: no
 
 Package: gles
