@@ -303,6 +303,20 @@ License: GPL-3
 MD5sum: f574da01d911a47883cad721dbfd6135
 NeedsCompilation: no
 
+Package: polmineR
+Version: 0.8.8.9016
+Depends: R (>= 3.5.0)
+Imports: methods, data.table (>= 1.12.2), fs, slam, Matrix, tm, DT,
+        xml2, stringi, utils, jsonlite, parallel, pbapply, RcppCWB (>=
+        0.6.0.9004), magrittr, knitr, lifecycle, rlang, cli
+Suggests: markdown (>= 1.5), rmarkdown, htmltools (>= 0.4.0),
+        highlight, sendmailR, shiny, shinythemes, shinyjs, miniUI,
+        rhandsontable, testthat, tidytext, covr, igraph, NLP, httr,
+        protolite, curl
+License: GPL-3
+MD5sum: cf0a8df916202d1a1288ee49b7ed828f
+NeedsCompilation: no
+
 Package: polmineR.anno
 Version: 0.3.3
 Depends: R6, methods, polmineR, data.table
