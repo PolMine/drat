@@ -328,7 +328,7 @@ Suggests: markdown (>= 1.5), rmarkdown, htmltools (>= 0.4.0),
         rhandsontable, testthat, tidytext, covr, igraph, NLP, httr,
         protolite, curl
 License: GPL-3
-MD5sum: c010a8eefd21c4052a5c36070e0af6f6
+MD5sum: fc3fbc7beb2423870067d9cabfd1f7f9
 NeedsCompilation: no
 
 Package: polmineR.anno
